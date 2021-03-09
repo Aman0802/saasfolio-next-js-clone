@@ -1,10 +1,13 @@
 import DetailFeature from "../DetailFeature";
+import Layout from "../Layout";
 
 const Details = () => (
   <div className="my-16">
-    <DetailFeature />
-    <DetailFeature right />
-    <DetailFeature />
+    <Layout>
+      <DetailFeature />
+      <DetailFeature right />
+      <DetailFeature />
+    </Layout>
   </div>
 );
 
